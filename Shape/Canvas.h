@@ -5,6 +5,10 @@
 class Canvas
 {
     public:
+        Canvas()
+        {
+            len=0;
+        }
         void draw()
         {
             for (int i=1;i<=len;i++)
