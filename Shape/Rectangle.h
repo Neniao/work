@@ -2,10 +2,11 @@
 #define RECTANGLE_H
 
 #include "Shape.h"
+#include "cstdio"
 class Rectangle:public Shape
 {
     public:
-        void outself()
+         void outself()
         {
             printf("Im a rectangle.\n");
         }
