@@ -2,6 +2,7 @@
 #define CIRCLE_H
 
 #include "Shape.h"
+#include "cstdio"
 class Circle:public Shape
 {
     public:
