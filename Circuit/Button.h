@@ -1,6 +1,7 @@
 #ifndef BUTTON_H
 #define BUTTON_H
 
+#include<cstdio>
 #include "Electrical.h"
 class Button
 {
@@ -11,6 +12,7 @@ class Button
             while ((*(control+i))!=NULL)
             {
                 (*(control+i))->work();
+                i++;
             }
         }
         void off()
