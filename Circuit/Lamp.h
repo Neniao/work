@@ -9,7 +9,7 @@ class Lamp:public Electrical
     public:
         void work()
         {
-            printf("lamp if on.\n");
+            printf("lamp is on.\n");
         }
     protected:
     private:
