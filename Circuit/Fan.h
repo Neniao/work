@@ -9,7 +9,7 @@ class Fan:public Electrical
     public:
         void work()
         {
-            printf("fan if on.\n");
+            printf("fan is on.\n");
         }
     protected:
     private:
